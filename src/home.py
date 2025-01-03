@@ -4,7 +4,7 @@ from PIL import Image
 
 def show_home():
     # Banner GIF
-    st.image("assets/banner.gif", use_column_width=True)
+    st.image("assets/banner.gif", use_container_width=True)
 
     # Welcome Section
     st.title("🎉 Welcome to DataSciLearn")
